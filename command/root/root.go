@@ -27,7 +27,7 @@ type RootCommand struct {
 func NewRootCommand() *RootCommand {
 	rootCommand := &RootCommand{
 		baseCmd: &cobra.Command{
-			Short: "Renloi is an EVM-Compatible Proof of Stake Blockchain Network",
+			Short: "Renloi is an EVM-compatible Proof of Stake Blockchain Network.",
 		},
 	}
 
